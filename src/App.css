@@ -1,0 +1,42 @@
+:root {
+  --bg: #071912;
+  --panel: #0d271f;
+  --muted: #9aa8a1;
+  --accent: #12d67a;
+  --accent-2: #16a34a;
+  --text: #dbeee3;
+  color-scheme: dark;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body { margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+}
+
+.app-root { max-width: 1200px; margin: 0 auto; padding: 28px 20px 60px; }
+
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 12px 16px; border-radius: 999px; font-weight: 700; }
+.btn-ghost { background: transparent; border: 1px solid rgba(255,255,255,0.06); color: var(--text); padding: 10px 14px; border-radius: 12px; }
+.btn-accent { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #052014; }
+.btn-outline { background: transparent; border: 1px solid rgba(255,255,255,0.06); color: var(--text); }

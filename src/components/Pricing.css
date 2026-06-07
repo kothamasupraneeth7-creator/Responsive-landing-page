@@ -1,0 +1,7 @@
+.pricing { margin: 56px 0; }
+.pricing h2 { margin-bottom: 18px; }
+.price-table { display: grid; grid-template-columns: 1fr 120px; gap: 12px; background: transparent; padding: 18px; border-radius: 12px; }
+.price-table div { padding: 12px 0; }
+@media (max-width: 760px) {
+  .price-table { grid-template-columns: 1fr; }
+}

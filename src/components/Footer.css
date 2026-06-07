@@ -1,0 +1,45 @@
+.site-footer {
+  background: var(--bg);
+  color: var(--muted);
+  padding: 40px 20px 24px;
+  border-top: 1px solid rgba(255,255,255,0.02);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto 18px;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+
+.footer-brand .logo { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.logo-image { width: 40px; height: 40px; }
+.logo-text { font-weight: 800; color: var(--text); }
+.brand-copy { margin: 0 0 12px; color: var(--muted); max-width: 340px; }
+.socials { display: flex; gap: 10px; }
+.social-link svg { opacity: 0.9; }
+
+.col-title { color: var(--text); font-weight: 800; margin-bottom: 10px; }
+.col-list { display: flex; flex-direction: column; gap: 8px; }
+.col-list a { color: var(--muted); text-decoration: none; }
+.col-list a:hover { color: var(--text); }
+
+.contact-item { display: flex; gap: 10px; align-items: center; color: var(--muted); margin-bottom: 10px; }
+.contact-icon { flex: 0 0 18px; }
+
+.footer-bottom { max-width: 1200px; margin: 0 auto; display:flex; justify-content:space-between; gap:20px; color: rgba(255,255,255,0.24); font-size:13px; }
+.bottom-links { display:flex; gap:14px; }
+.bottom-links a { color: rgba(255,255,255,0.36); text-decoration:none; }
+
+@media (max-width: 1024px) {
+  .footer-container { grid-template-columns: 1fr 1fr; }
+  .footer-bottom { flex-direction: column; gap:8px; }
+}
+
+@media (max-width: 760px) {
+  .footer-container { grid-template-columns: 1fr; }
+  .brand-copy { max-width: 100%; }
+}

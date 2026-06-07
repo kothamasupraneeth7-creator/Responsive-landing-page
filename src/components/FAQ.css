@@ -1,0 +1,7 @@
+.faq { margin: 60px 0; }
+.faq h2 { margin-bottom: 18px; }
+.faq-list { display: grid; gap: 12px; }
+.faq-item { background: var(--panel); border-radius: 12px; overflow: hidden; }
+.faq-item .q { width: 100%; text-align: left; padding: 14px 18px; background: transparent; border: 0; color: var(--text); font-weight: 700; cursor: pointer; }
+.faq-item .a { padding: 0 18px; color: var(--muted); max-height: 0; overflow: hidden; transition: max-height .28s ease, padding .28s ease; }
+.faq-item.open .a { padding: 12px 18px 18px; max-height: 220px; }

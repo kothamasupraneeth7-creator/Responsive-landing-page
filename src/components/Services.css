@@ -1,0 +1,15 @@
+.services { margin: 56px 0; }
+.section-head { margin: 56px 0 18px; }
+.section-head h2 { font-size: 28px; margin: 6px 0 6px; }
+.services-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+.service-card { background: var(--panel); padding: 20px; border-radius: 18px; }
+.service-media { height: 120px; background-size: cover; background-position: center; border-radius: 12px; margin-bottom: 12px; }
+.service-card h3 { margin: 0 0 10px; }
+.service-card p { color: var(--muted); margin: 0 0 12px; }
+.service-card .learn { color: var(--accent); font-weight: 700; }
+@media (max-width: 1024px) {
+  .services-grid { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 760px) {
+  .services-grid { grid-template-columns: 1fr; }
+}

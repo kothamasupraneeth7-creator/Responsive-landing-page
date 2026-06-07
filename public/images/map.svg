@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08241d" />
+      <stop offset="100%" stop-color="#0a3425" />
+    </linearGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12d67a" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="500" rx="32" fill="url(#bg)" />
+  <path d="M90 320c80-30 140-90 220-70 80 20 100 100 190 60 88-40 120-120 208-90" fill="none" stroke="#1e4e3f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+  <path d="M170 140c52 16 98 58 160 44 62-14 88-74 156-52 68 22 72 88 132 72" fill="none" stroke="#1e4e3f" stroke-width="18" stroke-linecap="round" />
+  <circle cx="300" cy="180" r="10" fill="#93f7b2" opacity="0.9" />
+  <circle cx="205" cy="350" r="10" fill="#93f7b2" opacity="0.9" />
+  <circle cx="540" cy="250" r="10" fill="#93f7b2" opacity="0.9" />
+  <circle cx="700" cy="170" r="10" fill="#93f7b2" opacity="0.9" />
+  <g fill="url(#pin)">
+    <path d="M200 310c0-18 15-33 33-33s33 15 33 33c0 25-33 55-33 55s-33-30-33-55z" />
+    <circle cx="233" cy="310" r="12" fill="#fff" />
+    <path d="M650 150c0-18 15-33 33-33s33 15 33 33c0 25-33 55-33 55s-33-30-33-55z" />
+    <circle cx="683" cy="150" r="12" fill="#fff" />
+    <path d="M440 220c0-18 15-33 33-33s33 15 33 33c0 25-33 55-33 55s-33-30-33-55z" />
+    <circle cx="473" cy="220" r="12" fill="#fff" />
+  </g>
+</svg>
